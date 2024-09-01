@@ -1,0 +1,133 @@
+/*body styling*/
+body{
+  background-color: green;
+}
+/*form styling*/
+form{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+  padding: 10px 30px;
+  margin: 20px;
+}
+/*h2 Styling*/
+h2{
+  font-size: 50px;
+  background-color: green;
+  color: white;
+}
+/*paragraph styling*/
+p{
+  font-size: 25px;
+  font-style: italic;
+  color: green
+}
+/*input for text*/
+input[type=text]{
+  width: 50%;
+  padding: 12px 20px;
+  display: block;
+  margin:8px 0px ;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 12px;
+  font-size: 18px;
+}
+/*input for date*/
+input[type=date]{
+  width: 50%;
+  padding: 12px 20px;
+  display: block;
+  margin:8px 0px ;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 8px;
+  font-size: 18px;
+}
+/*input for Address*/
+input[type=Address]{
+  width: 50%;
+  padding: 12px 20px;
+  display: block;
+  margin:8px 0px ;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 12px;
+  font-size: 18px;
+}
+/*styling for number*/
+input[type=number] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-size: 18px;
+}
+/*styling for text area*/
+textarea{
+  display: block;
+  height: 190px;
+  padding: 12px 20px;
+  margin: 15px;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-size: 18px;
+}
+/*styling for select button*/
+select{
+  width: 30%;
+  padding: 6px 0px;
+  display: inline;
+  border-radius: 4px;
+  background-color: gray;
+  color: white;
+  margin: 20px;
+  font-size: 18px;
+}
+/*styling for radio button*/
+input[type=radio]+label{
+  display: inline;
+  font-size: 20px;
+}
+/*styling for radio button input*/
+input[type=radio]{
+  display: inline;
+  margin: 2px;
+  width: 20px;
+  height: 16px;
+}
+/*styling for input submit button*/
+input[type=submit]{
+  border: none;
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 6px 2px;
+  cursor: no-drop;
+}
+/*label styling*/
+label{
+  display: block;
+  margin: 20px 10px;
+  padding: 1px 0px;
+  font-style: bolder;
+  font-size: 20px;
+}
+/*styling for class city and gender label*/
+  .city,.gender{
+  display: inline;
+}
+
+/*class info for textarea styling*/
+.info{
+  display: flex;
+align-items: center;
+}
+
+
+

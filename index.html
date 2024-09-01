@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--divcontainer for all-->
+  <div class="formcontainer">
+    <!--my form tag-->
+  <form>
+    <!--h2 tag-->
+  <h2>Student Form</h2>
+  <!--paragraph text-->
+  <p>Please fill the form correctly.</p>
+<!--label for gender-->
+  <label for="gender" class="gender">Gender</label>
+  <input type="radio" name="gender">
+  <label for="male">Male</label>
+  <input type="radio" name="gender">
+  <label for="Fmale">Female</label>
+  <input type="radio" name="gender">
+  <label for="others">Others</label>
+<!--label for name-->
+  <label for="fname">First Name</label>
+  <input type="text">
+  <label for="Lname">Last Name</label>
+  <input type="text">
+<!--label for DOB-->
+  <label for="dob">Date of Birth</label>
+  <input type="date">
+<!--label for Address-->
+  <label for="address">Address</label>
+  <input type="Address">
+<!--Label for number-->
+  <label for="number">Phone Number</label>
+  <input type="number">
+<!--Label for city-->
+  <label for="City" class="city">City</label>
+  <select name="City" id="city">
+    <option value="city">Ondo</option>
+    <option value="city">Oyo</option>
+    <option value="city">Ekiti</option>
+    <option value="city">Lagos</option>
+  </select>
+<!--Label Text area-->
+<div class="info">
+  <label for="textarea">Additional Information</label>
+  <textarea name="text" id="textarea" placeholder="write about yourself"></textarea></div>
+<!--input for Submit button-->
+  <input type="submit" value="submit">
+<!--closing form tag-->
+</form>
+<!--closing divcontainer for all-->
+</div>
+</body>
+</html>
